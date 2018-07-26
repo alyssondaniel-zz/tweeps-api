@@ -9,7 +9,7 @@ Tweeps API
   - Docker
 
 * Docker start
-  docker-compose up
+  - docker-compose up
 
 * How to run the test suite
   - docker exec -it tweeps-api_tweep_api_1 rspec
