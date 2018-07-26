@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  tweep_api:
+    build: .
+    ports:
+      - 3000:3000
+    environment:
+      TWEEP_HTTP_USERNAME: alyssondaniel@gmail.com
+      TWEEP_BASE_URL: http://tweeps.locaweb.com.br/tweeps
